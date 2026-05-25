@@ -1,13 +1,13 @@
 import pandas as pd
 
-# Fonte de dados simulada em dicionário, conforme arquitetura definida [cite: 85, 86]
+# Fonte de dados simulada em dicionário, conforme arquitetura definida 
 dados_simulados = [
     {"med1": "ibuprofeno", "med2": "varfarina", "alerta": "Risco de sangramento crasso. Encaminhar para avaliação médica."},
     {"med1": "paracetamol", "med2": "alcool", "alerta": "Risco de toxicidade hepática grave."},
     {"med1": "omeprazol", "med2": "clopidogrel", "alerta": "Redução da eficácia do clopidogrel. Risco cardiovascular."}
 ]
 
-# Estruturação via Pandas para tratamento e consulta [cite: 29]
+# Estruturação via Pandas para tratamento e consulta 
 df_interacoes = pd.DataFrame(dados_simulados)
 
 def buscar_interacao_pandas(med1: str, med2: str) -> str:

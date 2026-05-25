@@ -43,9 +43,8 @@ class ControladorApp:
         with open(self.arquivo_log, "a", encoding="utf-8") as f:
             f.write(f"[{agora}] {usuario_info} {mensagem}\n")
 
-    # =========================================================================
+  
     # CONSTRUÇÃO DA INTERFACE: TELA DE LOGIN
-    # =========================================================================
     def construir_tela_login(self):
         # Título Principal
         lbl_titulo = tk.Label(self.container_login, text="Acesso ao Sistema UBS", 
@@ -117,9 +116,7 @@ class ControladorApp:
         
         messagebox.showerror("Erro de Acesso", "Usuário, senha ou tipo de perfil incorretos.")
 
-    # =========================================================================
     # CONSTRUÇÃO DA INTERFACE: SISTEMA PRINCIPAL DE TRIAGEM
-    # =========================================================================
     def construir_tela_principal(self):
         # Barra superior informativa do usuário logado (Acessibilidade e Controle)
         frame_usuario = tk.Frame(self.container_principal, bg="#0056b3", pady=5)

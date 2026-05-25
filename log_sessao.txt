@@ -1,0 +1,3 @@
+[2026-05-25 18:27:33] [Médico: Dr. Lucas Moreira] Autenticação realizada com sucesso.
+[2026-05-25 18:28:52] [Médico: Dr. Lucas Moreira] Alerta gerado: (ibuprofeno + varfarina): Risco de sangramento crasso. Encaminhar para avaliação médica.
+[2026-05-25 18:28:59] [Médico: Dr. Lucas Moreira] Logoff efetuado voluntariamente.
